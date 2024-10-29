@@ -1,0 +1,14 @@
+
+
+
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f8;
+  min-height: 100vh;
+}
+
+.kanban-board {
+  display: flex;
+  padding: 20px;
+  overflow-x: auto;
+}

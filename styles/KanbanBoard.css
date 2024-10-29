@@ -1,0 +1,13 @@
+.kanban-board {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #f4f5f8;
+    min-height: calc(100vh - 60px);
+  }
+  
+  @media (max-width: 768px) {
+    .kanban-board {
+      flex-direction: column;
+    }
+  }
